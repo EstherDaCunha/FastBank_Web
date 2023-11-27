@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+.container_servicos {
+    background-color: #000040;
+    width: 100%;
+    flex-direction: row;
+}
+
+.title_servico {
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 100;
+    margin-left: 200px;
+    font-family: 'Jomhuria';
+    font-size: 80px;
+    margin-top: 80px;
+}
+
+p {
+    color: white;
+    margin-left: 200px;
+    font-family: 'alata';
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.topico {
+    justify-self: center;
+    width: 40%;
+    height: auto;
+    display: flex;
+}
+
+.caixa{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+

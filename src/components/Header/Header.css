@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.header {
+    width: 100%;
+    background-color: #000040;
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Jomhuria';
+}
+
+.img {
+    margin: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
+.title {
+    color: #FFF;
+    margin-right: 5em;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 100;
+    text-decoration: none;
+}

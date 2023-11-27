@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    margin: 5%;
+    color: white;
+    font-size: 150%;
+}
+
+.footer_img{
+    display: flex;
+    justify-content:space-between;
+}
+
+.logo{
+    width: auto;
+    height: 10%;
+    margin-top: 5%;
+    margin-right: 5%;
+}

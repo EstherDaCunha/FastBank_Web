@@ -1,0 +1,11 @@
+.cad{
+    display: flex;
+    height: 30px;
+    width: 40%;
+    margin-left: 30%;
+    padding: 10px 0px 10px 20px;
+    border-radius: 5%;
+    margin-top: 5%;
+    justify-content: space-between;
+    background-color: white;
+}
