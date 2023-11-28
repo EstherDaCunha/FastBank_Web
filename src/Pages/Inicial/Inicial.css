@@ -1,5 +1,24 @@
 .saldo{
     width: 25%;
     margin: 3%;
+    margin-left: 38%;
+}
+
+.valor_saldo{
+    color: white;
+    z-index: 2;
     margin-left: 40%;
+    margin-top: -14%;
+}
+
+.info2{
+    width: 31%;
+    margin-left: 14%;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+.more{
+    margin-left: 3%;
+    color: white;
 }
