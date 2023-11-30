@@ -32,7 +32,6 @@ function Login() {
             const refreshToken = response.data.refresh;
             setAccessToken(accessToken);
             setRefreshToken(refreshToken);
-            console.log('cheguei aqui')
         })
         .then(() => {
             navigate('/inicial', { replace: true })

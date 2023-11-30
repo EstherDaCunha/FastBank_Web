@@ -29,17 +29,11 @@ function Cadastro() {
         e.preventDefault();
         console.log(e)
         await axios.post('http://localhost:8000/api/usuarios/', {
+            "name": e.target.nome.value,
+            "dataNasc": e.target.dataNasc.value,
             "email": e.target.email.value,
             "password": e.target.password.value,
-            "nome": e.target.nome.value,
-            "dataNasc": e.target.dataNasc.value,
-        })
-        .then((response) => {
-            const accessToken = response.data.access;
-            const refreshToken = response.data.refresh;
-            setAccessToken(accessToken);
-            setRefreshToken(refreshToken);
-            console.log('cheguei aqui')
+
         })
         .then(() => {
             navigate('/login', { replace: true })
@@ -47,6 +41,11 @@ function Cadastro() {
         .catch((e) => {
             console.log(e);
         })
+
+        console.log(e.target.email.value)
+        console.log(e.target.password.value)
+        console.log(e.target.nome.value)
+        console.log(e.target.dataNasc.value)
     }
   
     return (
