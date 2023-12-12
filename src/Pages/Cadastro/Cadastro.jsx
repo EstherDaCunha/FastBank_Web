@@ -5,6 +5,8 @@ import axios from 'axios'
 import { useAuthStore } from "../../stores/authStore";
 import { useState, useEffect } from 'react';
 
+/* Tela para cadastro, conectada com a api, fazendo um POST no banco de dados */
+
 function Cadastro() {
   const navigate = useNavigate()
 

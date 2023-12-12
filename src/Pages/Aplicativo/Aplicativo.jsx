@@ -1,5 +1,6 @@
-import Header from '../../components/Header/Header'
 import './Aplicativo.css'
+
+/* Tela para indicar a existência do aplicaivo */
 
 function Aplicativo(){
     return(

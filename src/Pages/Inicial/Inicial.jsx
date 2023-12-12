@@ -5,6 +5,8 @@ import './Inicial.css'
 import axios from 'axios'
 import { useState } from 'react';
 
+/* Tela com as informações sobre a conta, utilizando a api para puxar o saldo atual */
+
 function Inicial() {
 
     const [saldo, setSaldo] = useState("")
